@@ -11,7 +11,7 @@ const SingleNeed = () => {
   const { needtId } = useParams();
 
   const { loading, data } = useQuery(QUERY_SINGLE_NEED, {
-    variables: { needtId: needtId },
+    variables: { needId: needId },
   });
 
   const need = data?.need || {};

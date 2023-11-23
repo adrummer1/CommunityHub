@@ -22,7 +22,7 @@ const NeedList = ({ needs, title, showTitle = true, showFirstName = true }) => {
                     <br />
                   </Link>
                   <span style={{ fontSize: "1rem" }}>
-                    posted this community project on {need.createdAt}
+                    Posted this community project on {need.createdAt}
                   </span>
                 </>
               ) : (
