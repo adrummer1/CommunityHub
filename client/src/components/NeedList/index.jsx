@@ -17,7 +17,7 @@ const NeedList = ({ needs, title, showTitle = true, showFirstName = true }) => {
   return (
     <div>
       <div>
-        <p>{message}</p>
+        <p style={{ color: "red" }}>{message}</p>
       </div>
       {showTitle && <h3>{title}</h3>}
       {needs &&
